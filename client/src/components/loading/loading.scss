@@ -1,0 +1,14 @@
+.loader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 6em 0;
+
+  p {
+    margin-top: 2em;
+    text-align: center;
+  }
+}
+.loading {
+  animation: rotate-center 1s ease-in-out infinite forwards;
+}

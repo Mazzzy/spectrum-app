@@ -1,0 +1,17 @@
+.areas-wrapper {
+  padding: 1.2rem;
+  .area-items {
+    display: flex;
+    justify-content: right;
+    
+    .area-item {
+      margin-right: 0.5rem;
+      .area-item-btn {
+        &.selected-btn {
+          background: linear-gradient(180deg, #fa7e29 0%, #F6682F 80%, #F6682F 100%);
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
